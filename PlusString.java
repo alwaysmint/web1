@@ -7,5 +7,6 @@ public class PlusString {
          System.out.println("1" + 1 + 1);  //111 (순서대로 처리)
          System.out.println("1" + (1 + 1)); //12 (괄호 먼저 처리)
          System.out.println("1" + 2 * 3); //16
+         System.out.println("1" + 1 + 1 * 5);//115
     }
 }
