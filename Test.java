@@ -1,20 +1,17 @@
-//if ¼ÓÀÇ if Á¶°Ç¹®
+
 public class Test {
 
 	public static void main(String[] args) {
-		boolean b = true;
-		int a = 10;
-		if (b) {
-			if (a == 10) {
-				System.out.println("a´Â 10ÀÔ´Ï´Ù.");
-			} else {
-				System.out.println("a´Â 10ÀÌ ¾Æ´Õ´Ï´Ù.");
-			}
-			
-		} else {
-			System.out.println("b´Â flase");
+		
+		for ( int i = 0; i < 10 ; i++ ) { // iëŠ” for ë°˜ë³µë¬¸ì—ì„œë§Œ ì‚¬ìš©
+			System.out.println("Hello");
 		}
-
+		System.out.println("-----------------");
+		int i = 0;
+		while (i <10) {
+			System.out.println("ABC");
+			i++;
+		}
+		System.out.println("end");
 	}
-
 }
